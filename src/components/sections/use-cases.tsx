@@ -5,22 +5,22 @@ import Image from "next/image";
 
 const cases = [
     {
-        role: "コーチ・コンサルタント",
+        role: "非エンジニアの経営者",
         image: "/images/coach.png",
-        result: "月商3倍",
-        description: "予約管理と決済を自動化し、セッションに集中。空いた時間で新規集客を行い、売上が大幅アップ。",
+        result: "Webアプリ開発",
+        description: "外注なしでWebアプリを自社開発。複雑な決済機能もAIと相談しながら一人で実装完了。",
+    },
+    {
+        role: "グッズ作成事業者",
+        image: "/images/salon.png",
+        result: "HP自作",
+        description: "以前は外注していたHPを、自分たちでリニューアル。商品写真の更新も自由にできるように。",
     },
     {
         role: "整体・サロン経営",
         image: "/images/salon.png",
         result: "週20時間の時短",
         description: "電話予約をWeb予約に完全移行。施術中の電話対応がなくなり、お客様満足度も向上。",
-    },
-    {
-        role: "講師・インストラクター",
-        image: "/images/instructor.png",
-        result: "新たな収益源",
-        description: "オンライン講座サイトを構築し、動画コンテンツを販売。場所を選ばずに収益を得られるように。",
     },
 ];
 

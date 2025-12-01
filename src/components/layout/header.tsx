@@ -11,9 +11,10 @@ export function Header() {
 
     const navItems = [
         { label: "悩み", href: "#pain-points" },
-        { label: "解決策", href: "#solution" },
-        { label: "特徴", href: "#features" },
-        { label: "料金", href: "#pricing" },
+        { name: "特徴", href: "#features" },
+        { name: "事例", href: "#use-cases" },
+        { name: "料金", href: "#pricing" },
+        { name: "大人のパソコンAI教室", href: "/study", highlight: true },
     ];
 
     return (
@@ -28,15 +29,18 @@ export function Header() {
                 <nav className="hidden md:flex items-center gap-8">
                     {navItems.map((item) => (
                         <Link
-                            key={item.href}
+                            key={item.name}
                             href={item.href}
-                            className="text-sm font-medium text-gray-600 hover:text-primary transition-colors"
+                            className={`text-sm font-medium transition-colors ${item.highlight
+                                ? "text-orange-500 font-bold bg-orange-50 px-3 py-1 rounded-full"
+                                : "text-gray-600 hover:text-primary"
+                                }`}
                         >
-                            {item.label}
+                            {item.name}
                         </Link>
                     ))}
                     <Button variant="cta" size="sm" asChild>
-                        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf..." target="_blank">
+                        <Link href="#contact">
                             無料相談を予約
                         </Link>
                     </Button>
@@ -72,7 +76,7 @@ export function Header() {
                                 </Link>
                             ))}
                             <Button variant="cta" className="w-full" asChild>
-                                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf..." target="_blank">
+                                <Link href="#contact">
                                     無料相談を予約
                                 </Link>
                             </Button>

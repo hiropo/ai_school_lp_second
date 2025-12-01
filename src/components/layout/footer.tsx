@@ -27,7 +27,7 @@ export function Footer() {
                     <div>
                         <h4 className="font-bold mb-4">お問い合わせ</h4>
                         <ul className="space-y-2 text-sm text-gray-400">
-                            <li><Link href="https://docs.google.com/forms/d/e/1FAIpQLSf..." target="_blank" className="hover:text-primary">無料相談予約</Link></li>
+                            <li><Link href="#contact" className="hover:text-primary">無料相談予約</Link></li>
                             <li><Link href="#" className="hover:text-primary">お問い合わせ</Link></li>
                         </ul>
                     </div>

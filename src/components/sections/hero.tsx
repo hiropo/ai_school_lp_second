@@ -19,7 +19,7 @@ export function Hero() {
                         <div className="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm mb-6 border border-gray-100">
                             <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
                             <span className="text-sm font-medium text-gray-600">
-                                個人事業主・副業・起業準備中の方へ
+                                仙台の個人事業主・副業・起業準備中の方へ
                             </span>
                         </div>
 
@@ -34,13 +34,13 @@ export function Hero() {
 
                         <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
                             AIを使えば、HP制作も予約システムも、自分で作れます。<br className="hidden md:block" />
-                            「パソコンが苦手」なあなたに、マンツーマンで伴走します。
+                            仙台駅周辺での対面サポートで、あなたのビジネスに伴走します。
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-12">
                             <Button variant="cta" size="lg" className="w-full sm:w-auto text-lg h-14 px-8" asChild>
-                                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf..." target="_blank">
-                                    まずは無料相談（10分）
+                                <Link href="#contact">
+                                    まずは無料相談
                                     <ArrowRight className="ml-2 w-5 h-5" />
                                 </Link>
                             </Button>

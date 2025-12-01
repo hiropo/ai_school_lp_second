@@ -9,8 +9,8 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "AI伴走型ビジネスオンライン化サービス",
-  description: "個人事業主・副業・起業準備中の方向けに、AIを活用してビジネスをオンライン化する伴走型サポートサービス",
+  title: "仙台のAI伴走型ビジネスオンライン化サービス | 個人事業主・副業",
+  description: "仙台を拠点に、個人事業主・副業・起業準備中の方向けに、AIを活用してビジネスをオンライン化する伴走型サポートサービス。対面でのオフライン講座も対応。",
 };
 
 export default function RootLayout({
